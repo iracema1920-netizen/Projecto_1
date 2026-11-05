@@ -31,38 +31,39 @@ The result is a **maintenance action list** (strategy per failure mode, a watch 
 ## Project structure
 
 ```
-Projecto_1/
+OGP1_project_A/
 ├── README.md
-├── run_all.py                 # Runs the full pipeline (steps 01 → 08)
-├── requirements.txt           # Python packages
-├── src/
-│   ├── 01_data_cleaning.py
-│   ├── 02_load_sql.py
-│   ├── 03_reliability_analysis.py
-│   ├── 04_alarm_analysis.py
-│   ├── 05_condition_monitoring_eda.py
-│   ├── 06_failure_prediction.py
-│   ├── 07_maintenance_action_list.py
-│   ├── 08_powerbi_export.py
-│   ├── config.py              # Paths, source files and asset master data
-│   └── style.py               # Shared chart style
-├── sql/
-│   ├── 01_create_schema.sql   # Star schema
-│   └── 02_kpi_queries.sql     # 12 KPI queries
-├── notebooks/
-│   └── Ogp1_project1_alarm_failure_events_impact.ipynb   # Walkthrough with results
-├── data/
-│   ├── raw/                   # Source Excel files (never edited)
-│   └── processed/             # Cleaned data, model outputs, action lists
-├── models/                    # Trained models (.joblib), created by step 6 – not stored on GitHub
-├── reports/
-│   ├── figures/               # fig01 … fig15 (PNG)
-│   ├── sql_results/           # Results of the 12 KPI queries (CSV)
-│   ├── Maintenance_Action_List.xlsx
-│   └── OGP1_Reliability_KPI_Summary.xlsx
-└── powerbi/
-    ├── data/                  # Tables exported for Power BI
-    └── OGP1_Reliability_Dashboard.pbix
+└── Projecto_1/
+    ├── run_all.py                 # Runs the full pipeline (steps 01 → 08)
+    ├── requirements.txt           # Python packages
+    ├── src/
+    │   ├── 01_data_cleaning.py
+    │   ├── 02_load_sql.py
+    │   ├── 03_reliability_analysis.py
+    │   ├── 04_alarm_analysis.py
+    │   ├── 05_condition_monitoring_eda.py
+    │   ├── 06_failure_prediction.py
+    │   ├── 07_maintenance_action_list.py
+    │   ├── 08_powerbi_export.py
+    │   ├── config.py              # Paths, source files and asset master data
+    │   └── style.py               # Shared chart style
+    ├── sql/
+    │   ├── 01_create_schema.sql   # Star schema
+    │   └── 02_kpi_queries.sql     # 12 KPI queries
+    ├── notebooks/
+    │   └── Ogp1_project1_alarm_failure_events_impact.ipynb   # Walkthrough with results
+    ├── data/
+    │   ├── raw/                   # Source Excel files (never edited)
+    │   └── processed/             # Cleaned data, model outputs, action lists
+    ├── models/                    # Trained models (.joblib), created by step 6 – not stored on GitHub
+    ├── reports/
+    │   ├── figures/               # fig01 … fig15 (PNG)
+    │   ├── sql_results/           # Results of the 12 KPI queries (CSV)
+    │   ├── Maintenance_Action_List.xlsx
+    │   └── OGP1_Reliability_KPI_Summary.xlsx
+    └── powerbi/
+        ├── data/                  # Tables exported for Power BI
+        └── OGP1_Reliability_Dashboard.pbix
 ```
 
 ### Assets analysed
@@ -112,24 +113,23 @@ MTBF, MTTR and availability are calculated for the four rotating machines (K-101
 - Packages:
 
 ```bash
-git clone https://github.com/iracema1920-netizen/Projecto_1.git
 cd Projecto_1
 pip install -r requirements.txt
 ```
 
 ### 2. Source data
 
-The three source files are in `data/raw/`:
+The three source files are in `Projecto_1/data/raw/`:
 
 - `Facility_equipment_data.xlsx` – PI historian sensor data
 - `equipment_event_failure_event.xlsx` – failure and event log
 - `Alarm_log.xlsx` – DCS alarm log
 
-> The raw files are never edited: every cleaning step writes to `data/processed/`. All other outputs (processed data, figures, Excel reports, SQL query results and Power BI tables) are included, so you can explore the results, the notebook and the dashboard without running anything. Only the SQLite database (about 270 MB, too large for GitHub) and the trained models are not stored here: `python run_all.py` rebuilds them in about a minute.
+> The raw files are never edited: every cleaning step writes to `data/processed/`. The main outputs (figures, Excel reports, SQL query results and Power BI tables) are included, so you can explore the results, the notebook and the dashboard without running anything. Large intermediate files (hourly sensor data, hourly predictions the SQLite database of about 270 MB, and the trained models) are not stored on GitHub: `python run_all.py` rebuilds them in about a minute.
 
 ### 3. Run the full pipeline
 
-From the project folder (`Projecto_1`):
+From the `Projecto_1` folder:
 
 ```bash
 python run_all.py
@@ -148,7 +148,7 @@ All outputs are written to `data/processed/`, `reports/`, `reports/figures/`, `p
 ### 4. Notebook walkthrough
 
 ```bash
-cd notebooks
+cd Projecto_1/notebooks
 jupyter notebook Ogp1_project1_alarm_failure_events_impact.ipynb
 ```
 
@@ -158,7 +158,7 @@ Run the **Setup** cell first. The notebook runs the 8 scripts in order and shows
 
 ## Power BI dashboard
 
-File: `OGP1_Reliability_Dashboard.pbix`. Open it with **Power BI Desktop**. It reads the tables exported by step 8. If the data does not load, go to **Transform data → Data source settings** and point it to your `powerbi/data/` folder.
+File: `OGP1_Reliability_Dashboard.pbix`. Open it with **Power BI Desktop**. It reads the tables exported by step 8. If the data does not load, go to **Transform data → Data source settings** and point it to your `Projecto_1/powerbi/data/` folder.
 
 **Data model:** `fact_asset_daily`, `fact_events`, `fact_alarms`, `fact_health_daily`, `dim_date`, plus a `_Measures` table.
 
