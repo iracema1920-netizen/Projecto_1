@@ -1,0 +1,4 @@
+unit,as_of,risk_ratio,health_index,main_driver_sensor,max_risk_7d,avg_risk_7d,status,recommended_action
+P-201B,2025-12-15 23:00:00,0.001,1.061,PUMP_LT5016,,,Normal,Routine rounds only
+P-201A,2025-12-31 23:00:00,0.0,0.935,PUMP_PT5015,0.017,0.0022011834319526627,Normal,Routine rounds only
+K-101/GT-101,2025-12-31 23:00:00,0.273,4.512,GT101_PT2006,0.362,0.29460946745562133,Normal,Routine rounds only

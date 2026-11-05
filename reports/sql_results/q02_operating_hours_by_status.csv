@@ -1,0 +1,5 @@
+asset_id,running_h,stopped_standby_h,maintenance_h,tripped_h,unknown_h,calendar_h
+GT-101,24993,2,1220,59,30,26304
+K-101,24993,2,1220,59,30,26304
+P-201A,13027,11854,1376,17,30,26304
+P-201B,12915,12541,798,20,30,26304

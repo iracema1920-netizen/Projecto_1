@@ -1,0 +1,11 @@
+rank_no,Tag,asset_id,Descriptor,n_alarms,avg_duration_h,pct_of_alarms,cumulative_pct
+1,OGP1.FLR_FT6001,FLARE,Flare gas flow,66,30.8,17.3,17.3
+2,OGP1.K101_EFF_POLY,K-101,Polytropic efficiency (PI AF calculation),61,18.4,16.0,33.2
+3,OGP1.E401_TT4002,E-401,Crude outlet temperature (hot side),57,24.9,14.9,48.2
+4,OGP1.E401_PDT4005,E-401,Crude side differential pressure,44,47.2,11.5,59.7
+5,OGP1.TK501_LT5101,TK-501,Crude storage tank level,20,7.8,5.2,64.9
+6,OGP1.P201B_PT5001,P-201B,Pump suction pressure,19,9.5,5.0,69.9
+7,OGP1.K101_TT1002,K-101,Compressor discharge temperature,17,5.4,4.5,74.3
+8,OGP1.GT101_PDT2007,GT-101,Air inlet filter differential pressure,16,22.9,4.2,78.5
+9,OGP1.P201A_PT5001,P-201A,Pump suction pressure,14,8.6,3.7,82.2
+10,OGP1.GT101_TT2008,GT-101,Lube oil header temperature,6,7.2,1.6,83.8

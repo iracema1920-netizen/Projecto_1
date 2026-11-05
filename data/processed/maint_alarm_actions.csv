@@ -1,0 +1,11 @@
+Tag,asset_id,Descriptor,alarms,repeats_24h,standing,avg_duration_h,recommended_fix
+OGP1.FLR_FT6001,FLARE,Flare gas flow,66,0,14,30.8,review 14 standing alarms (shelve or re-set limit); state-based suppression during compressor trip (consequential alarm)
+OGP1.K101_EFF_POLY,K-101,Polytropic efficiency (PI AF calculation),61,57,5,18.4,"add deadband / on-delay (repeating); review 5 standing alarms (shelve or re-set limit); convert to a performance KPI / advisory, not an operator alarm"
+OGP1.E401_TT4002,E-401,Crude outlet temperature (hot side),57,50,7,24.9,add deadband / on-delay (repeating); review 7 standing alarms (shelve or re-set limit)
+OGP1.E401_PDT4005,E-401,Crude side differential pressure,44,34,18,47.2,add deadband / on-delay (repeating); review 18 standing alarms (shelve or re-set limit)
+OGP1.TK501_LT5101,TK-501,Crude storage tank level,20,0,0,7.8,keep - alarm is effective
+OGP1.P201B_PT5001,P-201B,Pump suction pressure,19,2,0,9.5,keep - alarm is effective
+OGP1.K101_TT1002,K-101,Compressor discharge temperature,17,7,0,5.4,add deadband / on-delay (repeating)
+OGP1.GT101_PDT2007,GT-101,Air inlet filter differential pressure,16,9,7,22.9,add deadband / on-delay (repeating); review 7 standing alarms (shelve or re-set limit)
+OGP1.P201A_PT5001,P-201A,Pump suction pressure,14,0,0,8.6,keep - alarm is effective
+OGP1.K101_SURGE_MARGIN,K-101,Anti-surge controller surge margin,6,0,0,2.2,keep - alarm is effective

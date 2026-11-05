@@ -1,0 +1,7 @@
+table_name,n_rows
+dim_asset,12
+dim_tag,72
+fact_sensor_hourly,1758510
+fact_run_status,105216
+fact_event,98
+fact_alarm,382

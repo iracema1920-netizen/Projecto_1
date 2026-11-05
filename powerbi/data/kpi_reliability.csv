@@ -1,0 +1,5 @@
+asset_id,running_h,n_failures,mtbf_h,mtbf_days,mttr_h,availability_pct,failure_downtime_h
+K-101,24993,10,2499,104.1,53.6,95.14,536
+GT-101,24993,4,6248,260.3,59.0,95.14,236
+P-201A,13027,5,2605,108.6,43.6,94.7,218
+P-201B,12915,6,2152,89.7,44.2,96.89,265

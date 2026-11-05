@@ -1,0 +1,3 @@
+group,n_failures,n_censored,beta_shape,eta_scale_h,pattern,reliability_30d_running,B10_life_h
+Pumps (P-201A/B),11,2,1.27,2497,wear-out (increasing failure rate),0.814,426
+Compressor train (K-101 + GT-101),14,2,0.8,3291,infant mortality (decreasing failure rate),0.744,198

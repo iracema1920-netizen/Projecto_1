@@ -1,0 +1,20 @@
+FailureModeCode,FailureMode,n_events,avg_pf_days,min_pf_days,max_pf_days,avg_downtime_h
+E401_FOUL,Heat exchanger fouling,2,177.8,161.3,194.2,30.0
+K101_FOUL,Compressor fouling (efficiency loss),2,126.5,109.2,143.8,21.0
+INST_DRIFT,Transmitter drift,1,125.4,125.4,125.4,0.0
+GT101_INLETF,Air inlet filter clogging,4,78.3,62.1,96.2,11.0
+GT101_LOCOOL,Lube oil cooler fouling,1,48.7,48.7,48.7,14.0
+P201A_IMPELLER,Impeller wear (head/flow loss),1,31.5,31.5,31.5,74.0
+K101_LOFILT,Lube oil filter plugging,3,25.1,15.3,32.8,0.0
+V301_LCVSTIC,Level control valve stiction,1,23.9,23.9,23.9,0.0
+K101_THRUST,Thrust bearing distress,1,22.7,22.7,22.7,117.0
+P201B_BRG,Pump DE bearing failure,1,21.8,21.8,21.8,65.0
+P201A_SEAL,Mechanical seal leak,1,16.5,16.5,16.5,54.0
+P201B_MOTOR,Motor winding insulation degradation,1,16.1,16.1,16.1,93.0
+P201B_SEAL,Mechanical seal leak,2,15.6,13.5,17.6,52.0
+K101_JBRG,Journal bearing wear (drive end),2,15.3,12.2,18.3,121.0
+K101_DGS,Dry gas seal (primary) degradation,1,14.9,14.9,14.9,137.0
+P201A_BRG,Pump DE bearing failure,2,14.3,8.3,20.3,80.0
+GT101_COMB,Combustor / fuel nozzle failure,1,8.8,8.8,8.8,187.0
+GT101_FUELV,Fuel gas control valve malfunction,1,7.5,7.5,7.5,39.0
+K101_SURGE,Compressor surge event,3,0.3,0.3,0.3,11.0

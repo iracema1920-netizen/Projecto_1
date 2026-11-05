@@ -1,0 +1,73 @@
+tag,short_tag,asset_id,instrument_type,description_en,unit,limit_LL,limit_L,limit_H,limit_HH,pct_good
+OGP1.SITE_TT0001,SITE_TT0001,SITE,TT,Ambient temperature,°C,,,,,99.88
+OGP1.SITE_MT0002,SITE_MT0002,SITE,MT,Ambient relative humidity,%,,,,,99.87
+OGP1.V301_PT3001,V301_PT3001,V-301,PT,HP separator pressure,bar(g),,22.5,,,99.86
+OGP1.V301_TT3002,V301_TT3002,V-301,TT,Separator temperature,°C,,,,,99.86
+OGP1.V301_LT3003,V301_LT3003,V-301,LT,Separator liquid level,%,,,,,99.75
+OGP1.V301_LT3004,V301_LT3004,V-301,LT,Separator interface level,%,,,,,99.88
+OGP1.V301_LCV3007,V301_LCV3007,V-301,LCV,Level control valve opening,%,,,,,99.87
+OGP1.V301_FT3008,V301_FT3008,V-301,FT,Separator inlet flow,m³/h,,,,,99.86
+OGP1.V301_FT3005,V301_FT3005,V-301,FT,Separator gas outlet flow (to K-101),m³/h,,,,,99.86
+OGP1.FLR_FT6001,FLR_FT6001,FLARE,FT,Flare gas flow,m³/h,,,5.0,20.0,99.89
+OGP1.K101_PT1001,K101_PT1001,K-101,PT,Compressor suction pressure,bar(g),,,,,99.87
+OGP1.K101_PT1002,K101_PT1002,K-101,PT,Compressor discharge pressure,bar(g),,,,,99.86
+OGP1.K101_TT1001,K101_TT1001,K-101,TT,Compressor suction temperature,°C,,,50.0,,99.87
+OGP1.K101_TT1002,K101_TT1002,K-101,TT,Compressor discharge temperature,°C,,,166.0,,99.87
+OGP1.K101_FT1003,K101_FT1003,K-101,FT,Compressed gas flow,m³/h,,,,,99.86
+OGP1.K101_ST1004,K101_ST1004,K-101,ST,Compressor speed,rpm,,,,,99.87
+OGP1.K101_EFF_POLY,K101_EFF_POLY,K-101,Calc.,Polytropic efficiency (calculated),%,,74.0,,,94.73
+OGP1.K101_VT1010A,K101_VT1010A,K-101,VT,Radial vibration DE journal bearing X,um pk-pk,,,63.0,,99.88
+OGP1.K101_VT1010B,K101_VT1010B,K-101,VT,Radial vibration DE journal bearing Y,um pk-pk,,,63.0,,99.65
+OGP1.K101_VT1011A,K101_VT1011A,K-101,VT,Radial vibration NDE journal bearing X,um pk-pk,,,,,99.87
+OGP1.K101_ZT1012,K101_ZT1012,K-101,ZT,Axial (thrust) displacement,mm,,,0.5,0.7,99.88
+OGP1.K101_TT1013,K101_TT1013,K-101,TT,Thrust bearing temperature,°C,,,105.0,,99.87
+OGP1.K101_TT1014A,K101_TT1014A,K-101,TT,DE journal bearing temperature,°C,,,105.0,,99.87
+OGP1.K101_TT1014B,K101_TT1014B,K-101,TT,NDE journal bearing temperature,°C,,,,,99.87
+OGP1.K101_PDT1015,K101_PDT1015,K-101,PDT,Lube oil filter differential pressure,bar,,,1.0,,99.88
+OGP1.K101_PT1016,K101_PT1016,K-101,PT,Lube oil header pressure,bar(g),,2.0,,,99.86
+OGP1.K101_TT1017,K101_TT1017,K-101,TT,Lube oil temperature,°C,,,,,99.85
+OGP1.K101_FT1020,K101_FT1020,K-101,FT,Dry gas seal primary vent flow,m³/h,,,15.0,25.0,99.86
+OGP1.K101_SURGE_MARGIN,K101_SURGE_MARGIN,K-101,Calc.,Surge margin (calculated),%,4.0,8.0,,,94.86
+OGP1.K101_FV1030,K101_FV1030,K-101,FV,Anti-surge valve position,%,,,30.0,,99.87
+OGP1.GT101_ST2001,GT101_ST2001,GT-101,ST,Turbine speed,rpm,,,,,99.86
+OGP1.GT101_JT2002,GT101_JT2002,GT-101,JT,Turbine power,MW,,,,,99.87
+OGP1.GT101_TT2003,GT101_TT2003,GT-101,TT,Exhaust gas temperature,°C,,,,,99.85
+OGP1.GT101_TT2004,GT101_TT2004,GT-101,TT,Exhaust temperature spread (max-min TC),°C,,,45.0,60.0,99.87
+OGP1.GT101_FT2005,GT101_FT2005,GT-101,FT,Fuel gas flow,kg/h,,,,,99.88
+OGP1.GT101_PT2006,GT101_PT2006,GT-101,PT,Air compressor discharge pressure,bar(g),,,,,99.88
+OGP1.GT101_PDT2007,GT101_PDT2007,GT-101,PDT,Air inlet filter differential pressure,mbar,,,12.0,,99.85
+OGP1.GT101_TT2008,GT101_TT2008,GT-101,TT,Lube oil header temperature,°C,,,66.0,,99.87
+OGP1.GT101_VT2009,GT101_VT2009,GT-101,VT,Turbine vibration,mm/s,,,,,99.88
+OGP1.E401_TT4001,E401_TT4001,E-401,TT,Process inlet temperature,°C,,,,,99.87
+OGP1.E401_TT4002,E401_TT4002,E-401,TT,Process outlet temperature,°C,,,52.0,58.0,99.87
+OGP1.E401_TT4003,E401_TT4003,E-401,TT,Cooling medium inlet temperature,°C,,,,,99.86
+OGP1.E401_TT4004,E401_TT4004,E-401,TT,Cooling medium outlet temperature,°C,,,,,99.87
+OGP1.E401_PDT4005,E401_PDT4005,E-401,PDT,Process side differential pressure,bar,,,1.0,,99.67
+OGP1.E401_FT4006,E401_FT4006,E-401,FT,Cooling medium flow,m³/h,,,,,99.66
+OGP1.TK501_LT5101,TK501_LT5101,TK-501,LT,Storage tank level,%,10.0,20.0,,,99.88
+OGP1.TK501_TT5102,TK501_TT5102,TK-501,TT,Storage tank temperature,°C,,,,,99.86
+OGP1.P201A_PT5001,P201A_PT5001,P-201A,PT,Pump suction pressure,bar(g),0.6,0.9,,,99.86
+OGP1.P201A_PT5002,P201A_PT5002,P-201A,PT,Pump discharge pressure,bar(g),,38.0,,,99.87
+OGP1.P201A_FT5003,P201A_FT5003,P-201A,FT,Pump flow,m³/h,,,,,99.87
+OGP1.P201A_IT5004,P201A_IT5004,P-201A,IT,Motor current,A,,,,,99.89
+OGP1.P201A_VT5010,P201A_VT5010,P-201A,VT,Pump DE bearing vibration (velocity RMS),mm/s,,,7.1,11.0,99.87
+OGP1.P201A_VT5011,P201A_VT5011,P-201A,VT,Pump NDE bearing vibration,mm/s,,,,,99.88
+OGP1.P201A_TT5012,P201A_TT5012,P-201A,TT,Pump DE bearing temperature,°C,,,85.0,,99.84
+OGP1.P201A_PT5015,P201A_PT5015,P-201A,PT,Mechanical seal pot pressure,bar(g),2.2,2.6,,,99.87
+OGP1.P201A_LT5016,P201A_LT5016,P-201A,LT,Mechanical seal pot level,%,30.0,45.0,,,99.85
+OGP1.P201A_TT5018,P201A_TT5018,P-201A,TT,Motor stator winding temperature,°C,,,,,99.87
+OGP1.P201B_PT5001,P201B_PT5001,P-201B,PT,Pump suction pressure,bar(g),0.6,0.9,,,99.84
+OGP1.P201B_PT5002,P201B_PT5002,P-201B,PT,Pump discharge pressure,bar(g),,38.0,,,99.82
+OGP1.P201B_FT5003,P201B_FT5003,P-201B,FT,Pump flow,m³/h,,,,,99.87
+OGP1.P201B_IT5004,P201B_IT5004,P-201B,IT,Motor current,A,,,,,99.88
+OGP1.P201B_VT5010,P201B_VT5010,P-201B,VT,Pump DE bearing vibration (velocity RMS),mm/s,,,7.1,11.0,99.87
+OGP1.P201B_VT5011,P201B_VT5011,P-201B,VT,Pump NDE bearing vibration,mm/s,,,,,99.87
+OGP1.P201B_TT5012,P201B_TT5012,P-201B,TT,Pump DE bearing temperature,°C,,,,,99.7
+OGP1.P201B_PT5015,P201B_PT5015,P-201B,PT,Mechanical seal pot pressure,bar(g),2.2,2.6,,,99.86
+OGP1.P201B_LT5016,P201B_LT5016,P-201B,LT,Mechanical seal pot level,%,30.0,45.0,,,99.86
+OGP1.P201B_TT5018,P201B_TT5018,P-201B,TT,Motor stator winding temperature,°C,,,125.0,140.0,99.85
+OGP1.K101_RUN_STATUS,K101_RUN_STATUS,K-101,Estado,Running status (text),text,,,,,
+OGP1.GT101_RUN_STATUS,GT101_RUN_STATUS,GT-101,Estado,Running status (text),text,,,,,
+OGP1.P201A_RUN_STATUS,P201A_RUN_STATUS,P-201A,Estado,Running status (text),text,,,,,
+OGP1.P201B_RUN_STATUS,P201B_RUN_STATUS,P-201B,Estado,Running status (text),text,,,,,
+OGP1.P201_DUTY_PUMP,P201_DUTY_PUMP,P-201 (A/B system),Estado,Pump on duty (A or B),text,,,,,

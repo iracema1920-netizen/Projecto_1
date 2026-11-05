@@ -1,0 +1,25 @@
+asset_id,FailureModeCode,FailureMode,n_events,downtime_h,pct_of_downtime,cumulative_pct
+K-101,K101_JBRG,Journal bearing wear (drive end),2,242.0,16.0,16.0
+GT-101,GT101_COMB,Combustor / fuel nozzle failure,1,187.0,12.3,28.3
+P-201A,P201A_BRG,Pump DE bearing failure,2,159.0,10.5,38.8
+K-101,K101_DGS,Dry gas seal (primary) degradation,1,137.0,9.0,47.8
+K-101,K101_THRUST,Thrust bearing distress,1,117.0,7.7,55.5
+P-201B,P201B_SEAL,Mechanical seal leak,2,103.0,6.8,62.3
+P-201B,P201B_MOTOR,Motor winding insulation degradation,1,93.0,6.1,68.4
+P-201A,P201A_IMPELLER,Impeller wear (head/flow loss),1,74.0,4.9,73.3
+P-201B,P201B_BRG,Pump DE bearing failure,1,65.0,4.3,77.6
+E-401,E401_FOUL,Heat exchanger fouling,2,59.0,3.9,81.5
+P-201A,P201A_SEAL,Mechanical seal leak,1,54.0,3.6,85.0
+GT-101,GT101_INLETF,Air inlet filter clogging,4,43.0,2.8,87.9
+K-101,K101_FOUL,Compressor fouling (efficiency loss),2,41.0,2.7,90.6
+GT-101,GT101_FUELV,Fuel gas control valve malfunction,1,39.0,2.6,93.1
+K-101,K101_SURGE,Compressor surge event,3,33.0,2.2,95.3
+PLANT,ESD,Plant emergency shutdown,2,31.0,2.0,97.4
+GT-101,GT101_LOCOOL,Lube oil cooler fouling,1,14.0,0.9,98.3
+GT-101,GT101_FLAMEOUT,Flame-out trip (no precursor),2,10.0,0.7,98.9
+K-101,TRAIN_SPUR,Spurious trip,3,7.0,0.5,99.4
+P-201A,P201A_SPUR,Spurious trip,2,5.0,0.3,99.7
+P-201B,P201B_CAV,Cavitation - low suction pressure trip,1,3.0,0.2,99.9
+P-201B,P201B_SPUR,Spurious trip,1,1.0,0.1,100.0
+K-101,K101_LOFILT,Lube oil filter plugging,3,0.0,0.0,100.0
+V-301,V301_LCVSTIC,Level control valve stiction,1,0.0,0.0,100.0

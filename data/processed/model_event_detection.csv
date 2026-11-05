@@ -1,0 +1,11 @@
+EventID,asset_id,FailureModeCode,FailureMode,pf_interval_days,hi_lead_days,ml_lead_days,hi_main_driver,alarm_lead_days,recommended_method,model_lead_days
+EV-0074,P-201A,P201A_SEAL,Mechanical seal leak,16.5,12.1,11.0,PUMP_LT5016,8.8,ML classifier,11.0
+EV-0087,P-201A,P201A_BRG,Pump DE bearing failure,8.3,7.8,7.8,PUMP_TT5012,1.5,ML classifier,7.8
+EV-0096,P-201B,P201B_BRG,Pump DE bearing failure,21.8,12.5,17.4,PUMP_TT5012,4.0,ML classifier,17.4
+EV-0072,GT-101,GT101_INLETF,Air inlet filter clogging,75.6,23.7,75.6,GT101_PDT2007,5.9,Health index,23.7
+EV-0075,K-101,K101_JBRG,Journal bearing wear (drive end),18.3,6.3,18.3,K101_VT1010A,1.7,Health index,6.3
+EV-0077,K-101,K101_SURGE,Compressor surge event,0.3,,0.3,,0.1,Health index,
+EV-0078,K-101,K101_DGS,Dry gas seal (primary) degradation,14.9,4.3,14.9,K101_FT1020,7.7,Health index,4.3
+EV-0089,K-101,K101_JBRG,Journal bearing wear (drive end),12.2,4.0,11.9,K101_VT1010A,1.3,Health index,4.0
+EV-0093,K-101,K101_LOFILT,Lube oil filter plugging,32.8,13.0,32.8,K101_PDT1015,7.1,Health index,13.0
+EV-0095,GT-101,GT101_INLETF,Air inlet filter clogging,79.2,48.9,79.2,GT101_PDT2007,4.0,Health index,48.9

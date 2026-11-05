@@ -1,0 +1,10 @@
+,value
+total_alarms,382.0
+avg_alarms_per_day,0.35
+max_alarms_per_day,9.0
+standing_alarms_24h_plus,71.0
+pct_standing,18.6
+pct_high_priority,19.4
+pct_top10_tags,83.8
+pct_linked_to_event,98.7
+pct_repeat_within_24h,43.7

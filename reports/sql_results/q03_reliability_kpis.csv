@@ -1,0 +1,5 @@
+asset_id,equipment_class,criticality,running_h,n_failures,n_unplanned_events,mtbf_h,mttr_h,availability_pct,inherent_availability_pct
+P-201B,Centrifugal pump,B,12915,6,6,2153.0,44.2,96.89,97.99
+K-101,Centrifugal compressor,A,24993,10,15,2499.0,53.6,95.14,97.9
+P-201A,Centrifugal pump,B,13027,5,6,2605.0,43.6,94.7,98.35
+GT-101,Gas turbine,A,24993,4,9,6248.0,59.0,95.14,99.06

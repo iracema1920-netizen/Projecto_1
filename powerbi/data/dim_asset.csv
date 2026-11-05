@@ -1,0 +1,13 @@
+asset_id,tag_prefix,asset_name,equipment_class,criticality,has_run_status,sort_order
+K-101,K101,Gas compressor,Centrifugal compressor,A,True,1
+GT-101,GT101,Gas turbine (K-101 driver),Gas turbine,A,True,2
+P-201A,P201A,Export pump A,Centrifugal pump,B,True,3
+P-201B,P201B,Export pump B,Centrifugal pump,B,True,4
+V-301,V301,HP separator,Pressure vessel,A,False,5
+E-401,E401,Gas cooler / heat exchanger,Heat exchanger,B,False,6
+TK-501,TK501,Storage tank,Atmospheric tank,C,False,7
+FLARE,FLR,Flare system,Flare,A,False,8
+SITE,SITE,Site ambient conditions,Ambient,-,False,9
+P-201 (A/B system),P201,Export pump set (A/B),Pump system,B,False,10
+PLANT,,Whole plant,Plant,A,False,11
+PI SYSTEM,,PI historian,IT / OT system,-,False,12
