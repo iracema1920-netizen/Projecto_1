@@ -13,4 +13,6 @@ venv/
 # System files
 .DS_Store
 Thumbs.db
-data/processed/*.db
+
+# Trained models (rebuilt by step 6)
+models/
